@@ -1,4 +1,3 @@
-import { Textfit } from "react-textfit";
 import { useContext } from "react";
 import ToggleContext from "../context/ToggleContext";
 
@@ -15,7 +14,7 @@ const Screen = ({ value }) => {
           : "bg-t3-screenBackground"
       } rounded-md mb-6`}
     >
-      <Textfit
+      <div
         dir="rtl"
         className={`p-4 ${
           one
@@ -26,7 +25,7 @@ const Screen = ({ value }) => {
         }`}
       >
         {value.toLocaleString()}
-      </Textfit>
+      </div>
     </div>
   );
 };
