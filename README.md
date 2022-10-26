@@ -20,7 +20,7 @@ To run this project, clone or download repo
 install it locally using npm:
 
 ```
-$ cd ../Support-Desk-
+$ cd ../simple-calculater
 $ npm install
 $ npm start
 ```
